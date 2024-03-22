@@ -166,7 +166,7 @@ const miloLibs = setLibs(LIBS);
   paths.forEach(loadStyle);
 }());
 
-function loadPage() {
+async function loadPage() {
   const { loadArea, loadLana, setConfig, createTag } = await import(`${miloLibs}/utils/utils.js`);
   const metaCta = document.querySelector('meta[name="chat-cta"]');
   if (metaCta && !document.querySelector('.chat-cta')) {
