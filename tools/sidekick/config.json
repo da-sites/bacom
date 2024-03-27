@@ -3,6 +3,15 @@
   "host": "business.adobe.com",
   "plugins": [
     {
+      "id": "gen-ai",
+      "title": "Generate content",
+      "environments": [ "edit" ],
+      "isPalette": true,
+      "paletteRect": "inset: 36px",
+      "url": "https://main--your-project--org.hlx.page/tools/genai",
+      "view": [ "edit" ]
+    },
+    {
       "id": "library",
       "title": "Library",
       "environments": [ "edit" ],
