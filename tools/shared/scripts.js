@@ -2,7 +2,7 @@ import { setNx, codeBase } from './utils.js';
 
 const CONFIG = {
   codeBase,
-  imsClientId: 'bacom',
+  imsClientId: 'da-bacom',
   imsScope: 'AdobeID,gnav,openid',
 };
 
